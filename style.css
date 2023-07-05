@@ -1,0 +1,113 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #e2e2e2;
+}
+
+h1 {
+  width: 600px;
+  height: 40px;
+  color:white;  
+  background-color: #4caf50;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: #0f110f;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+form {
+width: 550px;
+border-radius: 20px;
+border-style: solid;
+border-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 100px;
+}
+
+form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input {
+  width: 250px;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table {
+  border-color: black;
+  border-radius: 20px;
+  border-style:solid;
+  width: 90%;
+  margin-top: 20px;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align:center;
+}
+
+table th {
+  background-color: #9a9c97;
+}
+
+table td button {
+  padding: 6px 12px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+table td button.editBtn {
+  background-color: #ffc107;
+}
+
+#placa{
+width: 97%;
+}
+#ano{
+width: 97%;
+}
+#modelo{
+width: 97%;
+}
+#fabricante{
+width: 97%;
+}
