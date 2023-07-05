@@ -40,3 +40,9 @@ let updateOne=async (Collection, Object, param)=>{
     let result=await db.Collection(Collection).updateOne(param, {})
     return result;
 }
+module.exports={
+    findAll,
+    insertOne,
+    findOne,
+    updateOne,
+    deleteOne}
